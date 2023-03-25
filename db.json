@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "name": "meu projeto",
+      "budget": "41000",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "contratar dev android",
+          "cost": "2000",
+          "description": "ser nerdola",
+          "id": "d40acb94-ebf6-4015-a920-dcddb350f426"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Update Project",
+      "budget": "5000",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": 500,
+      "services": [
+        {
+          "name": "teste",
+          "cost": "500",
+          "description": "teste",
+          "id": "68f8f1a4-02d2-4f5a-8397-e132c516014f"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infrastructure"
+    },
+    {
+      "id": 2,
+      "name": "Development"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planning"
+    }
+  ]
+}
