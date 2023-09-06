@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build & json-server --watch db.json --port 7130",
     "preview": "vite preview",
-    "backend": "json-server --watch db.json --port 5000"
+    "backend": "json-server --watch db.json --port 7130"
   },
   "dependencies": {
     "json-server": "^0.17.1",
